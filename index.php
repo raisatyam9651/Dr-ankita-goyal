@@ -29,7 +29,7 @@ require_once 'header.php';
     <div class="container">
         <div class="about-grid">
             <div class="about-image">
-                <img src="images/dr-ankita-professional.png"
+                <img src="images/dr-ankita-improved.png"
                      alt="Dr. Ankita Bansal Goyal"
                      class="about-img">
             </div>

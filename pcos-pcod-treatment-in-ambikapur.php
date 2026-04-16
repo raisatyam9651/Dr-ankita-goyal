@@ -168,7 +168,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>Empathetic Healing Environment</h4>
                 <p>"Navigating a PCOS diagnosis is incredibly draining physically and mentally. My role is to be your steadfast health partner. By educating you on your own physiology, we don't just treat the numbers on a blood test; we treat you, restoring your confidence and your future." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

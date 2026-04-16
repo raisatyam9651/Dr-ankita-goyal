@@ -153,7 +153,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>World-Class Uterine Care</h4>
                 <p>"Being told you have a tumor is terrifying. My priority is reassurance. Over 99% of fibroids are benign. By using advanced 3D Myomectomy, we can systematically remove these tumors while meticulously repairing the uterine wall, keeping your dream of motherhood safely intact." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

@@ -160,7 +160,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>Compassionate Surgical Expertise</h4>
                 <p>"Choosing a surgeon is a monumental decision. I promise my patients total transparency. We discuss all non-surgical alternatives first, and if surgery is needed, we utilize the most advanced tools available to ensure you leave the hospital safe, healthy, and pain-free." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

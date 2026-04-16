@@ -16,7 +16,7 @@ require_once 'header.php';
     <div class="container">
         <div class="about-grid">
             <div class="about-image">
-                <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal" class="about-img" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <img src="images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal" class="about-img" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
             </div>
             <div class="about-content">
                 <span class="section-subtitle">ABOUT</span>

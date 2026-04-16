@@ -169,7 +169,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>In Expert Hands</h4>
                 <p>"My goal is to offer women the safest, least invasive surgical options possible. With 3D laparoscopy, we not only cure the disease but we protect your fertility, preserve your organs, and give you your active life back in a fraction of the time." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

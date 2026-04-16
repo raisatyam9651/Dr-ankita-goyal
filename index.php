@@ -45,9 +45,6 @@ require_once 'header.php';
         <div class="hero-visual">
             <div class="hero-doctor-wrapper">
                 <img src="images/hero-doctor.png" alt="Dr. Ankita Bansal Goyal" class="hero-doctor">
-                <a href="tel:+919876543210" class="hero-phone-floating">
-                    <i class="fas fa-phone-alt"></i>
-                </a>
             </div>
         </div>
     </div>

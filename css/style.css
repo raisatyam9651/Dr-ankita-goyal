@@ -226,7 +226,7 @@ h3 { font-size: 1.5rem; }
    ============================================ */
 .hero-section {
     padding: 120px 0 0;
-    background: linear-gradient(135deg, #0a1d37 0%, #162a42 100%);
+    background: #020710; /* Solid deep medical navy for perfect blending */
     color: var(--white);
     overflow: hidden;
     position: relative;
@@ -364,28 +364,6 @@ h3 { font-size: 1.5rem; }
     filter: drop-shadow(0 20px 50px rgba(0,0,0,0.5));
 }
 
-.hero-phone-floating {
-    position: absolute;
-    bottom: 10%;
-    right: 15%;
-    width: 70px;
-    height: 70px;
-    background: #3b82f6;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 1.8rem;
-    box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); }
-    70% { transform: scale(1.1); box-shadow: 0 0 0 20px rgba(59, 130, 246, 0); }
-    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
-}
 
 /* Responsive Hero */
 @media (max-width: 991px) {

@@ -12,14 +12,43 @@ require_once 'header.php';
 
 <!-- Hero Section -->
 <section class="hero-section">
-    <div class="hero-container">
-        <div class="hero-image">
-            <picture>
-                <source media="(max-width: 768px)" srcset="images/mobile-hero.webp">
-                <img src="images/hero-banner.png"
-                     alt="Dr. Ankita Goyal Bansal - Laparoscopy Expert"
-                     class="hero-img">
-            </picture>
+    <div class="container hero-layout">
+        <div class="hero-content">
+            <span class="hero-badge">MD, FMAS (PGIMER Chandigarh) – Sankalp Hospital</span>
+            <h1>Best 3D Laparoscopic Surgeon in Ambikapur – <span>Dr. Ankita Bansal Goyal</span></h1>
+            <p>15+ years of clinical excellence in minimally invasive surgery, high-risk obstetrics, and comprehensive women's clinical care. Trusted by thousands of families across Chhattisgarh.</p>
+            
+            <div class="hero-btns">
+                <a href="#Contact" class="hero-btn btn-primary"><i class="fas fa-calendar-alt"></i> Book Consultation</a>
+                <a href="about.php" class="hero-btn btn-outline"><i class="fas fa-user-md"></i> Meet Dr. Ankita</a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-num">10,000+</span>
+                    <span class="stat-label">Successful Cases</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">15+</span>
+                    <span class="stat-label">Years of Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">4.9/5</span>
+                    <span class="stat-label">Google Rating</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-num">24/7</span>
+                    <span class="stat-label">Emergency Care</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-doctor-wrapper">
+                <img src="images/hero-doctor.png" alt="Dr. Ankita Bansal Goyal" class="hero-doctor">
+                <a href="tel:+919876543210" class="hero-phone-floating">
+                    <i class="fas fa-phone-alt"></i>
+                </a>
+            </div>
         </div>
     </div>
 </section>

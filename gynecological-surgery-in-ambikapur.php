@@ -16,11 +16,11 @@ require_once 'header.php';
     <style>
         /* Premium Service Page Specific Styles */
         :root {
-            --primary: #c2185b;
-            --secondary: #2c3e50;
-            --accent: #fce4ec;
-            --text-color: #555;
-            --bg-light: #f8f9fa;
+            --primary: #0F2E57;
+            --secondary: #009CC3;
+            --accent: #6EC1E4;
+            --text-color: #54595F;
+            --bg-light: #EBF3FD;
         }
 
         .service-hero {

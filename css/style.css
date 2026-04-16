@@ -14,8 +14,10 @@
     --text-color: #54595F;
     --text-light: #7A7A7A;
     --bg-light: #EBF3FD;
+    --cta-color: #0078FF; /* Bright Blue */
     --white: #FFFFFF;
     --black: #000000;
+    --hero-bg: rgb(2,7,16);
 
     /* Typography */
     --font-primary: 'Roboto', sans-serif;
@@ -138,7 +140,7 @@ h3 { font-size: 1.5rem; }
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
+    background-color: var(--cta-color);
     color: var(--white);
 }
 
@@ -226,7 +228,7 @@ h3 { font-size: 1.5rem; }
    ============================================ */
 .hero-section {
     padding: 120px 0 0;
-    background: #020710; /* Solid deep medical navy for perfect blending */
+    background: var(--hero-bg); /* Per brand guidelines */
     color: var(--white);
     overflow: hidden;
     position: relative;
@@ -297,9 +299,9 @@ h3 { font-size: 1.5rem; }
 }
 
 .hero-btn.btn-primary {
-    background: #2563eb;
+    background: var(--cta-color);
     color: white;
-    box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 120, 255, 0.3);
 }
 
 .hero-btn.btn-primary:hover {

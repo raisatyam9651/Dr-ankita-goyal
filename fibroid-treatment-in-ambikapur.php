@@ -27,7 +27,7 @@ require_once 'header.php';
             position: relative;
             padding: 140px 20px 80px;
             text-align: center;
-            background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.85)), url('images/treatment-4.png') center/cover;
+            background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.85)), url('images/hero-banner.png') center/cover;
             border-bottom: 1px solid #eaeaea;
         }
         .service-hero h1 { color: var(--primary); font-size: 3.2rem; font-weight: 800; margin-bottom: 20px; line-height: 1.2; }

@@ -14,8 +14,10 @@
                     <!-- About Column -->
                     <div class="footer-col">
                         <div class="footer-logo">
-                            <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/Sanklp-Site-Icon.png" alt="Dr. Ankita Goyal Bansal">
+                            <img src="images/site-logo.png" alt="Dr. Ankita Goyal Bansal">
                             <h3>Dr. Ankita Goyal Bansal</h3>
+                
+
                         </div>
                         <p>Expert gynecologist specializing in 3D laparoscopic and minimal access surgery. Committed to women's health with precision and compassion.</p>
                     </div>

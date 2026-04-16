@@ -31,7 +31,7 @@
         <div class="container">
             <nav class="navbar">
                 <a href="index.php" class="logo">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/Sanklp-Site-Icon.png" alt="Dr. Ankita Goyal Bansal" width="50" height="50">
+                    <img src="images/site-logo.png" alt="Dr. Ankita Goyal Bansal" width="50" height="50">
                     <span>Dr. Ankita Goyal Bansal</span>
                 </a>
 

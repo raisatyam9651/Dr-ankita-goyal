@@ -154,7 +154,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/2.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>Compassionate & Coordinated Care</h4>
                 <p>"An intricate pregnancy requires an intricate plan. We do not just react to emergencies; we anticipate them. By coordinating heavily across endocrinology and neonatal specialists, I ensure that when the time comes to deliver, nothing is left to chance." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

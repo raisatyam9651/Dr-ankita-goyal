@@ -16,7 +16,7 @@ require_once 'header.php';
         <div class="hero-image">
             <picture>
                 <source media="(max-width: 768px)" srcset="images/mobile-hero.webp">
-                <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/Dr-Ankita-Website-banner1-1.jpg"
+                <img src="images/hero-banner.png"
                      alt="Dr. Ankita Goyal Bansal - Laparoscopy Expert"
                      class="hero-img">
             </picture>
@@ -29,7 +29,7 @@ require_once 'header.php';
     <div class="container">
         <div class="about-grid">
             <div class="about-image">
-                <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/2.png"
+                <img src="images/dr-ankita-professional.png"
                      alt="Dr. Ankita Bansal Goyal"
                      class="about-img">
             </div>
@@ -183,11 +183,11 @@ require_once 'header.php';
             </div>
             <div class="social-gallery">
                 <div class="gallery-grid">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/SnapInsta.to_539058708_17880691419380284_5545499195227126324_n.webp" alt="Instagram Post 1">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/SnapInsta.to_515982929_17873960892380284_516058797052785606_n.webp" alt="Instagram Post 2">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/SnapInsta.to_530182557_17878466832380284_7836125507592141952_n.webp" alt="Instagram Post 3">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/SnapInsta.to_533059269_17879354826380284_647070653398632335_n.webp" alt="Instagram Post 4">
-                    <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/SnapInsta.to_533681222_17879225580380284_6213903790270459726_n.webp" alt="Instagram Post 5">
+                    <img src="images/treatment-1.png" alt="Laparoscopic View 1">
+                    <img src="images/treatment-2.png" alt="Laparoscopic View 2">
+                    <img src="images/treatment-3.png" alt="Laparoscopic View 3">
+                    <img src="images/treatment-4.png" alt="Laparoscopic View 4">
+                    <img src="images/treatment-5.png" alt="Laparoscopic View 5">
                 </div>
             </div>
         </div>

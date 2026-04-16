@@ -159,7 +159,7 @@ require_once 'header.php';
 
         <!-- Block 5: Doctor Highlight -->
         <div class="doctor-callout">
-            <img src="https://drankitalaparoscopy.in/wp-content/uploads/2025/09/2.png" alt="Dr. Ankita Bansal Goyal">
+            <img src="images/dr-ankita-professional.png" alt="Dr. Ankita Bansal Goyal">
             <div class="doctor-callout-text">
                 <h4>Surgical Finesse Matters</h4>
                 <p>"The ovary is an incredibly delicate organ. It houses a woman's hormonal engine and reproductive future. You simply cannot rush an ovarian surgery. I take pride in utilizing extreme 3D precision to essentially flay the cyst away while fiercely protecting your healthy tissue." <br><br><strong>– Dr. Ankita Bansal Goyal</strong></p>

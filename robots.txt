@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Crawl-delay suggestion for polite bots
+Crawl-delay: 1
+
+Sitemap: https://drankitalaparoscopy.in/sitemap.xml

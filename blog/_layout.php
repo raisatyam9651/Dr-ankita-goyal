@@ -30,12 +30,16 @@ require_once '../header.php';
 .post-body strong{color:#0A2F5C}
 .post-callout{background:linear-gradient(135deg,#EBF3FD,#f0f9ff);border-left:5px solid #00B4D8;border-radius:0 12px 12px 0;padding:24px 28px;margin:32px 0}
 .post-callout p{margin:0;font-size:1.05rem;color:#0A2F5C;font-style:italic}
-.post-doctor-cta{background:linear-gradient(135deg,#0A2F5C,#0F3460);border-radius:16px;padding:36px;text-align:center;color:#fff;margin:50px 0}
-.post-doctor-cta img{width:90px;height:90px;border-radius:50%;object-fit:cover;border:3px solid rgba(255,255,255,.3);margin-bottom:16px}
-.post-doctor-cta h4{font-size:1.2rem;margin-bottom:8px;color:#fff}
-.post-doctor-cta p{font-size:.95rem;color:#90E0EF;margin-bottom:20px}
-.post-doctor-cta a{display:inline-block;background:#00B4D8;color:#fff;padding:12px 28px;border-radius:50px;font-weight:700;font-size:.9rem;text-decoration:none;transition:background .25s}
-.post-doctor-cta a:hover{background:#0090b0}
+.post-doctor-cta{display:flex;align-items:center;gap:32px;background:linear-gradient(135deg,#0A2F5C,#0F3460);border-radius:16px;padding:40px;color:#fff;margin:50px 0;text-align:left;box-shadow:0 12px 35px rgba(10,47,92,.15)}
+.doctor-cta-img{flex-shrink:0}
+.doctor-cta-img img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.2);box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.doctor-cta-content{display:flex;flex-direction:column;align-items:flex-start}
+.doctor-cta-content h4{font-family:'Tenor Sans',sans-serif;font-size:1.6rem;margin:0 0 6px 0;color:#fff;border:none;padding:0}
+.doctor-creds{color:#00B4D8;font-size:.95rem;font-weight:700;letter-spacing:.5px;margin-bottom:14px;display:flex;align-items:center;gap:6px}
+.doctor-cta-content p{font-size:1.05rem;color:#EBF3FD;line-height:1.65;margin:0 0 22px 0}
+.btn-author-consult{display:inline-flex;align-items:center;gap:8px;background:#ee7c31;color:#fff;padding:12px 30px;border-radius:50px;font-weight:700;font-size:.95rem;text-decoration:none;transition:transform .25s,box-shadow .25s;box-shadow:0 4px 15px rgba(238,124,49,.3)}
+.btn-author-consult:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(238,124,49,.4);color:#fff}
+@media(max-width:768px){.post-doctor-cta{flex-direction:column;text-align:center;padding:34px 24px;gap:20px}.doctor-cta-content{align-items:center}}
 .post-tags{display:flex;flex-wrap:wrap;gap:10px;margin:40px 0 0}
 .post-tag{background:#EBF3FD;color:#0A2F5C;padding:6px 16px;border-radius:50px;font-size:.82rem;font-weight:600;text-decoration:none;transition:background .2s}
 .post-tag:hover{background:#00B4D8;color:#fff}
@@ -92,10 +96,15 @@ require_once '../header.php';
     <div class="post-body"><?php echo $post_content; ?></div>
 
     <div class="post-doctor-cta">
-      <img src="../images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
-      <h4>Consult Dr. Ankita Bansal Goyal</h4>
-      <p>MD, FMAS (PGIMER Chandigarh) — Laparoscopic &amp; Gynecological Surgeon, Sankalp Hospital, Ambikapur</p>
-      <a href="../contact-us.php">Book a Consultation <i class="fas fa-arrow-right"></i></a>
+      <div class="doctor-cta-img">
+        <img src="../images/dr-ankita-improved.png" alt="Dr. Ankita Bansal Goyal">
+      </div>
+      <div class="doctor-cta-content">
+        <h4>Meet Dr. Ankita Bansal Goyal</h4>
+        <div class="doctor-creds"><i class="fas fa-certificate"></i> M.D, FMAS (PGIMER Chandigarh)</div>
+        <p>A highly skilled Laparoscopic &amp; Gynecological Surgeon based at Sankalp Hospital, Ambikapur. Specializing in advanced 3D Minimal Access Surgery, Dr. Ankita brings premier expertise in safely treating complex precise reproductive health conditions including fibroids, PCOS, and ovarian cysts.</p>
+        <a href="../contact-us.php" class="btn-author-consult">Book a Consultation <i class="fas fa-arrow-right"></i></a>
+      </div>
     </div>
 
     <div class="post-tags">

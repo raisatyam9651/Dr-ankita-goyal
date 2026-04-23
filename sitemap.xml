@@ -6,22 +6,12 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/about.php</loc>
+    <loc>https://drankitalaparoscopy.in/3d-laparoscopic-surgery-in-ambikapur-chhattisgarh.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/services.php</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://drankitalaparoscopy.in/contact.php</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drankitalaparoscopy.in/contact-us.php</loc>
+    <loc>https://drankitalaparoscopy.in/3d-laparoscopy-surgery-in-ambikapur.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -31,42 +21,37 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/3d-laparoscopy-surgery-in-ambikapur.php</loc>
+    <loc>https://drankitalaparoscopy.in/about.php</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drankitalaparoscopy.in/ambikapur-3d-laparoscopy.php</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drankitalaparoscopy.in/gynecological-surgery.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://drankitalaparoscopy.in/ambikapur-gynecological-surgery.php</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/gynecological-surgery-in-ambikapur.php</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://drankitalaparoscopy.in/pcos-pcod-treatment.php</loc>
+    <loc>https://drankitalaparoscopy.in/blog.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/pcos-pcod-treatment-in-ambikapur.php</loc>
+    <loc>https://drankitalaparoscopy.in/contact-us.php</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/fibroid-treatment.php</loc>
+    <loc>https://drankitalaparoscopy.in/contact.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/endometriosis-care.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -76,12 +61,17 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/endometriosis-care.php</loc>
+    <loc>https://drankitalaparoscopy.in/fibroid-treatment.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/high-risk-pregnancy.php</loc>
+    <loc>https://drankitalaparoscopy.in/gynecological-surgery-in-ambikapur.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/gynecological-surgery.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -91,7 +81,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/ovarian-cyst-removal.php</loc>
+    <loc>https://drankitalaparoscopy.in/high-risk-pregnancy.php</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -101,8 +91,143 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://drankitalaparoscopy.in/condition-treatment-in-ambikapur-chhattisgarh.php</loc>
+    <loc>https://drankitalaparoscopy.in/ovarian-cyst-removal.php</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/pcos-pcod-treatment-in-ambikapur.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/pcos-pcod-treatment.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/services.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/7-signs-of-uterine-fibroids.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/benefits-of-minimally-invasive-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/complete-guide-to-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/diet-after-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/dos-and-donts-after-laparoscopy.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/endometriosis-early-detection.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/gas-pain-bloating-after-laparoscopy.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/high-risk-pregnancy-guide.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/how-laparoscopic-surgery-is-performed.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/is-laparoscopic-surgery-safe.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/is-laparoscopic-surgery-worth-it.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/laparoscopic-surgery-cost-in-india.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/laparoscopic-surgery-insurance-coverage.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/laparoscopy-vs-open-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/ovarian-cysts-when-to-see-doctor.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/pregnancy-travel-daily-activities-laparoscopy.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/prepare-for-gynecology-appointment.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/recovery-after-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/reproductive-health-after-35.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/robotic-vs-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/understanding-pcos-symptoms-causes-treatment.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/what-is-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/what-to-expect-laparoscopic-surgery.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://drankitalaparoscopy.in/blog/wound-care-bathing-sleeping-driving-laparoscopy.php</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>

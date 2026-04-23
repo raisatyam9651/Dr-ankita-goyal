@@ -44,7 +44,7 @@ require_once 'header.php';
         </div>
         <div class="hero-visual">
             <div class="hero-doctor-wrapper">
-                <img src="images/hero-doctor.png" alt="Dr. Ankita Bansal Goyal" class="hero-doctor">
+                <img src="images/hero-img.png" alt="Dr. Ankita Bansal Goyal" class="hero-doctor">
             </div>
         </div>
     </div>

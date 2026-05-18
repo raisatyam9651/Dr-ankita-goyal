@@ -51,7 +51,7 @@ require_once 'header.php';
                 </div>
             </div>
             <div class="contact-form">
-                <form action="contact.php" method="POST" class="appointment-form">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="appointment-form">
                     <input type="hidden" name="action" value="submit_form">
                     <div class="form-group"><label for="name">Your Name *</label><input type="text" id="name" name="name" required></div>
                     <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required></div>

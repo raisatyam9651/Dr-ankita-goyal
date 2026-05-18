@@ -132,10 +132,14 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    alert('Thank you! Your appointment request has been submitted. We will contact you shortly.');
-                    contactForm.reset();
+                    if (data.redirect) {
+                        window.location.href = data.redirect;
+                    } else {
+                        alert('Thank you! Your appointment request has been submitted. We will contact you shortly.');
+                        contactForm.reset();
+                    }
                 } else {
-                    alert('There was an error. Please try again later.');
+                    alert(data.message || 'There was an error. Please try again later.');
                 }
             })
             .catch(error => {

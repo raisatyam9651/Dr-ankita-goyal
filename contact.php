@@ -167,4 +167,6 @@ $logEntry = sprintf(
 file_put_contents($logFile, $logEntry, FILE_APPEND | LOCK_EX);
 
 // Success response
-jsonResponse(true, 'Thank you! Your appointment request has been submitted. We will contact you shortly.');
+jsonResponse(true, 'Thank you! Your appointment request has been submitted. We will contact you shortly.', [
+    'redirect' => 'thank-you.php'
+]);

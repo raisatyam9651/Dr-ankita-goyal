@@ -50,14 +50,16 @@ require_once 'header.php';
                     <div class="contact-item"><i class="fas fa-phone"></i><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
                 </div>
             </div>
-            <div class="contact-form">
-                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="appointment-form">
+            <div class="">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions"
+                    method="POST" class="">
                     <input type="hidden" name="action" value="submit_form">
                     <div class="form-group"><label for="name">Your Name *</label><input type="text" id="name" name="name" required></div>
                     <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required></div>
                     <input type="hidden" name="service" value="3d-laparoscopy">
                     <div class="form-group"><label for="message">Your Message</label><textarea id="message" name="message" rows="4"></textarea></div>
-                    <button type="submit" class="btn btn-primary btn-block">Book Appointment <i class="fas fa-arrow-right"></i></button>
+                    <button type="submit" class="btn btn-primary btn-block">Book Appointment <i
+                            class="fas fa-arrow-right"></i></button>
                 </form>
             </div>
         </div>

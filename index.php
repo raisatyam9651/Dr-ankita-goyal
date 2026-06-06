@@ -367,8 +367,9 @@ require_once 'header.php';
                 </div>
             </div>
 
-            <div class="contact-form">
-                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="appointment-form">
+            <div class="">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions"
+                    method="POST" class="">
                     <input type="hidden" name="action" value="submit_form">
 
                     <div class="form-group">
@@ -405,9 +406,8 @@ require_once 'header.php';
                         <textarea id="message" name="message" rows="4"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-block">
-                        Book Appointment <i class="fas fa-arrow-right"></i>
-                    </button>
+                    <button type="submit" class="btn btn-primary btn-block">Book Appointment <i
+                            class="fas fa-arrow-right"></i></button>
                 </form>
             </div>
         </div>

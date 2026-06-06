@@ -52,7 +52,8 @@
     }
 </style>
 
-<form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="appointment-form">
+<form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions"
+    method="POST" class="">
     <input type="hidden" name="action" value="submit_form">
     <!-- Capture which service page the patient was looking at -->
     <input type="hidden" name="page_source" value="<?php echo htmlspecialchars($page_title ?? 'General Inquiry'); ?>">

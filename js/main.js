@@ -93,75 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ============================================
-    // Form Validation & Submission
-    // ============================================
-    const contactForm = document.querySelector('.appointment-form');
 
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            const formData = new FormData(this);
-            const submitBtn = this.querySelector('button[type="submit"]');
-            const originalText = submitBtn.innerHTML;
-
-            // Validate required fields
-            const name = formData.get('name');
-            const phone = formData.get('phone');
-
-            if (!name || name.trim().length < 2) {
-                alert('Please enter a valid name.');
-                return;
-            }
-
-            if (!phone || !/^[0-9+\-\s]{10,}$/.test(phone)) {
-                alert('Please enter a valid phone number.');
-                return;
-            }
-
-            // Show loading state
-            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-            submitBtn.disabled = true;
-
-            // Get base path from main.js script source to handle subdirectories/clean URLs
-            const scriptEl = document.querySelector('script[src*="js/main.js"]');
-            const basePath = scriptEl ? scriptEl.src.replace('js/main.js', '') : '';
-
-            const actionUrl = this.getAttribute('action') || (basePath + 'contact.php');
-            const isFormester = actionUrl.includes('formester.com');
-
-            // Submit form
-            fetch(actionUrl, {
-                method: 'POST',
-                body: formData,
-                headers: isFormester ? { 'Accept': 'application/json' } : {}
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                if (isFormester || data.success) {
-                    const redirectUrl = data.redirect || data.redirection_url || (basePath + 'thank-you.php');
-                    window.location.href = redirectUrl;
-                } else {
-                    alert(data.message || 'There was an error. Please try again later.');
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                // Fallback to thank-you page
-                window.location.href = basePath + 'thank-you.php';
-            })
-            .finally(() => {
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-            });
-        });
-    }
 
     // ============================================
     // Animate on Scroll (Intersection Observer)

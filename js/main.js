@@ -128,27 +128,33 @@ document.addEventListener('DOMContentLoaded', function() {
             const scriptEl = document.querySelector('script[src*="js/main.js"]');
             const basePath = scriptEl ? scriptEl.src.replace('js/main.js', '') : '';
 
+            const actionUrl = this.getAttribute('action') || (basePath + 'contact.php');
+            const isFormester = actionUrl.includes('formester.com');
+
             // Submit form
-            fetch(basePath + 'contact.php', {
+            fetch(actionUrl, {
                 method: 'POST',
-                body: formData
+                body: formData,
+                headers: isFormester ? { 'Accept': 'application/json' } : {}
             })
-            .then(response => response.json())
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
             .then(data => {
-                if (data.success) {
-                    if (data.redirect) {
-                        window.location.href = data.redirect;
-                    } else {
-                        alert('Thank you! Your appointment request has been submitted. We will contact you shortly.');
-                        contactForm.reset();
-                    }
+                if (isFormester || data.success) {
+                    const redirectUrl = data.redirect || data.redirection_url || (basePath + 'thank-you.php');
+                    window.location.href = redirectUrl;
                 } else {
                     alert(data.message || 'There was an error. Please try again later.');
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('Thank you! Your message has been received. We will contact you shortly.');
+                // Fallback to thank-you page
+                window.location.href = basePath + 'thank-you.php';
             })
             .finally(() => {
                 submitBtn.innerHTML = originalText;

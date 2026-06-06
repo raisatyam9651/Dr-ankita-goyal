@@ -124,8 +124,12 @@ document.addEventListener('DOMContentLoaded', function() {
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
             submitBtn.disabled = true;
 
+            // Get base path from main.js script source to handle subdirectories/clean URLs
+            const scriptEl = document.querySelector('script[src*="js/main.js"]');
+            const basePath = scriptEl ? scriptEl.src.replace('js/main.js', '') : '';
+
             // Submit form
-            fetch('contact.php', {
+            fetch(basePath + 'contact.php', {
                 method: 'POST',
                 body: formData
             })

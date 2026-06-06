@@ -103,8 +103,8 @@ require_once 'header.php';
             </div>
 
             <div class="">
-                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions"
-                    method="POST" class="">
+                <form accept-charset='UTF-8' action='https://app.formester.com/forms/PeoZoWPaY/submissions'
+                    method='POST' class=''>
                     <input type="hidden" name="action" value="submit_form">
 
                     <div class="form-group">

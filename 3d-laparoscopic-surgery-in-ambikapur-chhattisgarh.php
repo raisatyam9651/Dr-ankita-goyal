@@ -50,9 +50,9 @@ require_once 'header.php';
                     <div class="contact-item"><i class="fas fa-phone"></i><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
                 </div>
             </div>
-            <div class="">
-                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions"
-                    method="POST" class="">
+            <div class=''>
+                <form accept-charset='UTF-8' action='https://app.formester.com/forms/PeoZoWPaY/submissions'
+                    method='POST' class=''>
                     <input type="hidden" name="action" value="submit_form">
                     <div class="form-group"><label for="name">Your Name *</label><input type="text" id="name" name="name" required></div>
                     <div class="form-group"><label for="phone">Phone Number *</label><input type="tel" id="phone" name="phone" required></div>

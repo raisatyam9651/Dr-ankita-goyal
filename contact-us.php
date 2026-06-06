@@ -4,11 +4,14 @@ $base_url = './';
 require_once 'header.php';
 ?>
 
-<div class="page-title-area" style="position: relative; background-image: url('images/services-hero.png'); background-size: cover; background-position: center; padding: 120px 0; text-align: center; margin-top: 80px;">
+<div class="page-title-area"
+    style="position: relative; background-image: url('images/services-hero.png'); background-size: cover; background-position: center; padding: 120px 0; text-align: center; margin-top: 80px;">
     <div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(255, 255, 255, 0.85);"></div>
     <div class="container" style="position: relative; z-index: 1;">
-        <h1 style="color: var(--primary-color); font-size: 3rem; text-shadow: 1px 1px 1px rgba(255,255,255,0.9);">Contact Us</h1>
-        <p style="color: var(--secondary-color); font-weight: 600; font-size: 1.2rem;">We are here to assist you with your queries and appointments.</p>
+        <h1 style="color: var(--primary-color); font-size: 3rem; text-shadow: 1px 1px 1px rgba(255,255,255,0.9);">
+            Contact Us</h1>
+        <p style="color: var(--secondary-color); font-weight: 600; font-size: 1.2rem;">We are here to assist you with
+            your queries and appointments.</p>
     </div>
 </div>
 
@@ -18,7 +21,8 @@ require_once 'header.php';
         <div class="contact-grid">
             <div class="contact-info">
                 <h3>Stay Connected</h3>
-                <p>Have questions or ready to book an appointment? Reach out to us through any of the channels below.</p>
+                <p>Have questions or ready to book an appointment? Reach out to us through any of the channels below.
+                </p>
                 <div class="contact-details">
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
@@ -52,7 +56,8 @@ require_once 'header.php';
             </div>
 
             <div class="">
-                <form accept-charset='UTF-8' action='https://app.formester.com/forms/PeoZoWPaY/submissions' method='POST'>
+                <form accept-charset='UTF-8' action='https://app.formester.com/forms/PeoZoWPaY/submissions'
+                    method='POST' class=''>
                     <div class="form-group">
                         <label for="name">Your Name *</label>
                         <input type="text" id="name" name="name" required>

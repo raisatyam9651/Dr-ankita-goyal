@@ -62,7 +62,7 @@ require_once 'header.php';
                 <a href="index.php" class="btn btn-primary">
                     <i class="fas fa-home"></i> Back to Home
                 </a>
-                <a href="https://wa.me/919876543210" class="btn btn-outline" target="_blank" rel="noopener">
+                <a href="https://wa.me/919691212570" class="btn btn-outline" target="_blank" rel="noopener">
                     <i class="fab fa-whatsapp"></i> Chat with Us
                 </a>
             </div>
@@ -78,7 +78,7 @@ require_once 'header.php';
                 <i class="fas fa-phone"></i>
                 <div>
                     <strong>Call Us</strong>
-                    <span>+91 98765 43210</span>
+                    <span>+91 96912 12570</span>
                 </div>
             </div>
             <div class="strip-item">

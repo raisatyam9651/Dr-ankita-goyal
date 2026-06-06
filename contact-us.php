@@ -51,8 +51,8 @@ require_once 'header.php';
                 </div>
             </div>
 
-            <div class="contact-form">
-                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST" class="appointment-form">
+            <div class="">
+                <form accept-charset="UTF-8" action="https://app.formester.com/forms/PeoZoWPaY/submissions" method="POST">
                     <div class="form-group">
                         <label for="name">Your Name *</label>
                         <input type="text" id="name" name="name" required>

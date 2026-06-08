@@ -12,6 +12,7 @@
     <title><?php echo isset($page_title) ? $page_title : 'Laparoscopy Treatment | Dr. Ankita Bansal Goyal'; ?></title>
     <meta name="description" content="Dr. Ankita Bansal Goyal is a skilled gynecologist specializing in advanced laparoscopic treatments for safe, precise women's care.">
     <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="OOh7KQTnYd3GY3bWFcV9XZlMbbJdni7tE8CeNWLGpBs">
     <link rel="canonical" href="https://drankitalaparoscopy.in/">
 
     <!-- Fonts -->
